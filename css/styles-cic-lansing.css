@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 20px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+/***************************************************************************************************  */
+body {
+  margin: 0;
+}
+
+h2 {
+  color: #3B6CAA;
+}
+
+h4, h2, p, a {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+
+@media only screen and (min-width: 1020px) {
+.cic-lansing-header {
+  max-height: 400px;
+  }
+}
+
+@media only screen and (max-width: 865px) {
+  .cic-lansing-header {
+    background-size: 0% !important;
+  }
+}
+
+header {
+  margin-bottom: 25px;
+}
+
+.cic-lansing-header {
+  min-height: 250px;
+  background-color: #f3f3f3;
+  background-image: url('../images/Waka.jpg');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.header-ibm-logo {
+  width: 150px;
+  margin-top: 30px;
+}
+
+.header-text {
+  margin-bottom: 0 !important;
+  color: #3B6CAA;
+  line-height: 160%;
+  font-weight: 500;
+}
+
+.header-tabs {
+  margin-left: 20px;
+}
+
+.header-tabs a {
+  color: #ffffff;
+}
+
+.header-tabs button {
+  border: none;
+  border-left: 1px solid #dee2e6;
+  border-top: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
+  border-top-left-radius: 5px;
+  border-top-right-radius:5px;
+  padding: 12px 14px;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 815px) {
+  .whitetab {
+    display: none !important;
+  }
+}
+
+.whitetab {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #ffffff;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.bluetab {
+  cursor: pointer;
+  background-color: #3B6CAA;
+  color: #ffffff;
+}
+
+.bluetab a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 815px) {
+  .my-video {
+    width: 100% !important;
+  }
+}
+
+.my-video {
+  width: 90%;
+}
+
+.side-links {
+  padding: 0 15px;
+}
+
+.side-links a {
+  color: #3B6CAA;
+  text-decoration: none;
+}
+
+.side-links a:hover {
+  text-decoration: underline;
+}
+
+.img-tiles {
+  padding: 50px;
+}
+
+.img-tiles img {
+  width: 100%;
+}
+
+.footer {
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+.footer img {
+  width: 30px;
+  margin-right: 20px;
+}
